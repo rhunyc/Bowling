@@ -1,20 +1,24 @@
 # Bowling - OnSharp Challenge
 
-Hello, here's my submission for the coding challenge with OnSharp.
+Hello again,</br>
 
-I'm going to be the first to admit that there has to be a better way to do this than what I provided.
+Thank you for giving me some extra time to work on this.</br>
 
-I bring this up, because half-way through coding it I realized I had kind of coded myself into a corner with some dependencies. I was trying really hard to get the total score to update as frames were calculated, but once I realized how difficult I had made it, I wouldn't have had enough time to start from scratch.
+I ended up rebuilding it in a new solution to make things easier on myself, so that's why everything was swapped in my recent commit.</br>
 
-So I decided to just stick with how I had structured it and tried to make the best of it. I was able to get it to calculate the scores accurately and it will print the score for each frame, unfortunately it isn't a running total due to the previously mentioned issue.
+For this I was able to:</br>
+-Get the running total to work</br>
+-Simplify it to only being composed of a Round object with many Frame objects (no balls), and the helper classes</br>
+-Abstract out a lot of the functionality for better testing capabilities</br>
+-Write a lot more test cases for classes</br>
+</br>
+Some things to note:</br>
+-In the interest of time and it being only a coding challenge, I did not fully complete all possible tests.</br>
+-The most complete test class is for "NormalFrameTests" in the "Frames" test folder</br>
+</br>
 
-Another thing I noticed was that when writing unit tests, the functions for most classes are not as simple and would require either breaking them apart or really indepth testing. So this is why there are unit tests lacking for most classes, unfortunately.
-
-If I had more time this is what I would do:</br>
--Rework the scoring logic completely, figure out a more efficient way of keeping track of both the frame and total scores</br>
--Make sure that what I do can be easily tested, and incorporate more unit tests as a result
-
-I appreciate the opportunity to work on this coding challenge and I would love to hear your honest feedback. It's been a really hectic week, but I tried my best!
-
-Thank you. </br>
+I would be more than happy to continue getting the test cases up, but I feel as though what I have done now (in NormalFrameTests) is a good indication of what things could be if I were to continue that process. Plus, since this is only a coding challenge, I'm not sure how indepth the test suite should be/needs to be. :) If you would rather me fully complete all tests, let me know and I'll be happy to do that as soon as I can.</br>
+</br>
+If you have any comments or concerns, please reach out to me. I also would greatly appreciate any feedback on it to help me improve.</br></br>
+Thank you for your time,</br>
 -Brian
