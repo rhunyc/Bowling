@@ -69,11 +69,13 @@ namespace Bowling_Console_App.Game
                 case 1:
                     if (previousShot < 10 && InputHelper.InputAndPreviousShotValid(input, previousShot))
                         return true;
-                    if (previousShot == 10 && InputHelper.InputBetween0and10(input))
+                    else if (previousShot == 10 && InputHelper.InputBetween0and10(input))
                         return true;
                     break;
                 case 2:
-                    if (previousShot < 10 && InputHelper.InputAndPreviousShotValid(input, previousShot))
+                    if (previousShot < 10 && previousShot + GetPreviousShot(ballsRolled - 1) == 10 && InputHelper.InputBetween0and10(input))
+                        return true;
+                    else if (previousShot < 10 && previousShot + GetPreviousShot(ballsRolled - 1) > 10 && InputHelper.InputAndPreviousShotValid(input, previousShot))
                         return true;
                     else if (previousShot == 10 && InputHelper.InputBetween0and10(input))
                         return true;
