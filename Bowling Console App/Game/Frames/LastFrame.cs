@@ -20,9 +20,9 @@ namespace Bowling_Console_App.Game
             {
                 string userInput = Console.ReadLine();
 
-                if (int.TryParse(userInput, out int num))
+                if (int.TryParse(userInput, out int inputPoints))
                 {
-                    int inputPoints = int.Parse(userInput);
+                    inputPoints = int.Parse(userInput);
 
                     if (ValidatePoints(inputPoints))
                     {

@@ -19,9 +19,9 @@ namespace Bowling_Console_App.Game
             {
                 string userInput = Console.ReadLine();
 
-                if (int.TryParse(userInput, out int num))                                   // Try to get a valid integer from what the user types
+                if (int.TryParse(userInput, out int inputPoints))                                   // Try to get a valid integer from what the user types
                 {
-                    int inputPoints = int.Parse(userInput);
+                    inputPoints = int.Parse(userInput);
 
                     if (ValidatePoints(inputPoints))                                        // Check to make sure that the int they entered is a good amount
                     {
