@@ -1,0 +1,13 @@
+C:\Projects\Bowling Console App\Bowling Console App\bin\Debug\netcoreapp3.1\Bowling Console App.exe
+C:\Projects\Bowling Console App\Bowling Console App\bin\Debug\netcoreapp3.1\Bowling Console App.deps.json
+C:\Projects\Bowling Console App\Bowling Console App\bin\Debug\netcoreapp3.1\Bowling Console App.runtimeconfig.json
+C:\Projects\Bowling Console App\Bowling Console App\bin\Debug\netcoreapp3.1\Bowling Console App.runtimeconfig.dev.json
+C:\Projects\Bowling Console App\Bowling Console App\bin\Debug\netcoreapp3.1\Bowling Console App.dll
+C:\Projects\Bowling Console App\Bowling Console App\bin\Debug\netcoreapp3.1\Bowling Console App.pdb
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.AssemblyInfoInputs.cache
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.AssemblyInfo.cs
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.csproj.CoreCompileInputs.cache
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.dll
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.pdb
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.genruntimeconfig.cache
+C:\Projects\Bowling Console App\Bowling Console App\obj\Debug\netcoreapp3.1\Bowling Console App.csprojAssemblyReference.cache
